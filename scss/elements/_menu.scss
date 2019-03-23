@@ -1,0 +1,47 @@
+.menu {
+    position: fixed;
+    left: -285px;
+    top: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 190px;
+    overflow-y: auto;
+    background-color: $color-section;
+    box-shadow: $box-shadow-base;
+
+    &__logo {
+        height: 180px;
+        width: 100%;
+    }
+
+    &__list {
+        padding-top: 15px;
+        list-style: none;
+    }
+
+    &__item {
+        display: block;
+        padding-bottom: 8px;
+        text-align: left;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 14px;
+             color: $text-color;
+
+           &:hover {
+            color: $color-green;
+        }
+
+        }
+
+    }
+
+    &__icon {
+        padding-right: 5px;
+    }
+
+
+}

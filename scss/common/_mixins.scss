@@ -1,0 +1,28 @@
+// mixins 
+
+@mixin font-basic {
+
+    background-color: $main-color;
+    font-family: $font-raleway;
+    color: $text-color;
+    letter-spacing: .1em;
+    
+}
+
+@mixin before-line {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $text-color;
+    height: 1px;
+    width: 100%;
+    opacity: 0.2;
+}
+
+@mixin centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

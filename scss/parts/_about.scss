@@ -1,0 +1,29 @@
+.about {
+
+    &__container {
+        padding: 35px;
+        
+    }
+
+    &__description {
+        position: relative;
+        margin-bottom: 50px;
+        text-align: center;
+
+        &:before {
+            margin-top: 40px;
+            @include before-line;
+        }
+    }
+
+    &__btns {
+        text-align: center;
+    }
+
+    &__btn:not(:last-child) {
+        margin-right: 15px;
+    }
+
+
+    
+}

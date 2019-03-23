@@ -1,0 +1,20 @@
+.icon-open {
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+
+    rect {
+        opacity: 0.1;
+        transition: 0.7s;
+
+        &:hover {
+            opacity: 0.4;
+            fill: #262525;
+        }
+
+    }
+   
+}

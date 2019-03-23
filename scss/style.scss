@@ -1,0 +1,23 @@
+// Extended Files
+
+// Common
+@import 'common/variables';
+@import 'common/mixins';
+@import 'common/typography';
+@import 'common/general';
+
+
+// Elements
+@import 'elements/menu';
+@import 'elements/menu-btn';
+@import 'elements/socials';
+@import 'elements/btn';
+@import 'elements/section-title';
+
+
+// Parts
+@import 'parts/preloader';
+@import 'parts/header';
+@import 'parts/home';
+@import 'parts/about';
+@import 'parts/footer';
